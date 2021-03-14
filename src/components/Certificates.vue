@@ -9,7 +9,7 @@
         class="text-center pa-5"
         cols="12"
         md="6"
-        style="height:100vh"
+        style="min-height: 100vh"
       >
         <base-bubble-1
           style="transform: rotate(180deg) translateX(25%)"
