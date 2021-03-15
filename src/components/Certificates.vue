@@ -96,7 +96,7 @@
           </v-col>
 
           <v-col
-            v-for="(career, i) in certificates_and_careers.careers.careers"
+            v-for="(career) in certificates_and_careers.careers.careers"
             :key="career.company_name"
             class="text-center mb-3"
             md="6"
