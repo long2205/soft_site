@@ -25,7 +25,6 @@
       AboutMe: () => import('@/components/AboutMe'),
       GetInTouch: () => import('@/components/GetInTouch'),
       Certificates: () => import('@/components/Certificates'),
-      // Careers: () => import('@/components/Careers'),
       Welcome: () => import('@/components/Welcome'),
     },
   }

@@ -34,7 +34,7 @@
         >
           <v-text-field
             color="info"
-            label="Name"
+            :label="contact.form_name"
             :placeholder="contact.form_name"
             solo
             flat
@@ -42,7 +42,7 @@
 
           <v-text-field
             color="info"
-            label="Email"
+            :label="contact.form_email"
             :placeholder="contact.form_email"
             solo
             flat
@@ -50,7 +50,7 @@
 
           <v-text-field
             color="info"
-            label="Subject"
+            :label="contact.form_subject"
             :placeholder="contact.form_subject"
             solo
             flat
@@ -58,7 +58,7 @@
 
           <v-textarea
             color="info"
-            label="Message"
+            :label="contact.form_message"
             :placeholder="contact.form_message"
             solo
             flat

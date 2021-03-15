@@ -4,7 +4,7 @@
     class="justify-center"
   >
     <h6 class="text-center">
-      ☆☆☆Working on CI/CD☆☆☆<br>
+      ☆☆☆With a little help from AWS Amplify☆☆☆<br>
     </h6>
   </v-footer>
 </template>

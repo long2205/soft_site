@@ -37,7 +37,10 @@
               {{ welcome.hello_description }}<br>
               {{ welcome.hello_description_2 }}
             </base-text>
-            <base-btn class="mt-4">
+            <base-btn
+              class="mt-4"
+              @click="readMore"
+            >
               {{ welcome.learn_more }}
             </base-btn>
           </v-col>
@@ -57,6 +60,15 @@
       welcome: {
         type: Object,
         required: true,
+      },
+    },
+    methods: {
+      readMore () {
+        document.getElementById('certificates').scrollIntoView({
+          top: 0,
+          left: 0,
+          behavior: 'smooth',
+        })
       },
     },
   }

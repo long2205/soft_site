@@ -121,8 +121,8 @@ export default {
         },
         certificates_and_careers: {
             certificates: {
-                certificates_title: '学位　& 証明書',
-                certificates_description: 'ベトナムの工科大学から卒業しました',
+                certificates_title: '学位 & 証明書',
+                certificates_description: 'ベトナムのハノイ工科大学から卒業しました',
                 certificates_description_2: '一番難しい勉強なきゃの講義はマルクス・レーニン主義だと思います。',
                 technical: '技術',
                 language: '言語',
@@ -162,8 +162,8 @@ export default {
                 ],
             },
             careers: {
-                careers_title: 'キャリア',
-                careers_description: '私の経歴',
+                careers_title: '職務経歴',
+                careers_description: '前職と現職。。。',
                 careers: [
                     {
                         company_name: 'OWS Vietnam',
@@ -181,11 +181,11 @@ export default {
             },
         },
         about: {
-            about_title: 'スキル',
-            about_description: '',
+            about_title: 'アバウト',
+            about_description: 'システム開発のはレゴを組み立てるような仕事です。レゴが大好きな人です(^^)/',
             skills: {
-                skills_title: 'Skills',
-                skills_description: "Haven't reach master level of anything yet. I'm trying though",
+                skills_title: 'スキル',
+                skills_description: '新しいスキルを追加したいですw',
                 first_column: [
                     {
                         skill_name: 'PHP',
@@ -217,12 +217,12 @@ export default {
             },
         },
         contact: {
-            contact_title: 'Get In Touch',
-            form_name: 'Name',
-            form_email: 'Email',
-            form_subject: 'Subject',
-            form_message: 'Message',
-            form_submit: 'Send',
+            contact_title: '連絡しましょう！',
+            form_name: '名前',
+            form_email: 'メール',
+            form_subject: 'タイトル',
+            form_message: '内容',
+            form_submit: '通信',
         },
     },
 }

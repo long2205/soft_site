@@ -43,8 +43,8 @@
       items: [
         {
           name: 'Facebook',
-          icon: 'mdi-facebook',
-          link: 'https://www.facebook.com/llq2205/',
+          icon: 'mdi-linkedin',
+          link: 'https://www.linkedin.com/in/thanh-long-hoang-a2309a1a9/',
         },
         {
           name: 'Instagram',
