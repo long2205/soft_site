@@ -18,7 +18,7 @@
     name: 'CoreView',
 
     data: () => ({
-      data: data.en,
+      data: data.jp,
     }),
 
     components: {
